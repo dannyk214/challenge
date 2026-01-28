@@ -141,3 +141,10 @@ body{
     border-radius: 20px;
 
 }
+
+.description input:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
