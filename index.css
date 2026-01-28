@@ -32,6 +32,10 @@
     margin: 0 10px;
     font-size: 20px;
     font-weight: bold;
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 }
 .navbar{
     width: 100%;
@@ -139,4 +143,14 @@ body{
     padding: 10px;
     border-radius: 20px;
 
+<<<<<<< HEAD
+=======
+}
+
+.description input:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+>>>>>>> main
 }
