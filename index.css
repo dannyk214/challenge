@@ -174,13 +174,30 @@ body{
     object-fit: cover;
 }
 .projects a{
+    
     color: #252422;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     text-decoration: none;
 }
 .projects p{
-    font-size: 15px;
+    width: 40%;
+    font-weight: normal;
+    font-size: 13px;
     margin-top: 5px;
+}
+
+.projects h2:hover{
+    
+    text-decoration:underline;
+}
+
+.projects img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.projects video:hover{
+    transform: scale(1.1);
 }
