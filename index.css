@@ -200,4 +200,39 @@ body{
 
 .projects video:hover{
     transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.featured{
+    width: 100%;
+    height:100vh;
+    display:flex;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+@media (max-width: 768px){
+    .featured{
+        flex-direction: column;
+        height : auto;
+        text-wrap: wrap;
+    }
+
+    .featured div{
+        width: 100%;
+        height: auto;}
+
+.featured div{
+    width:33%;
+    height: 100%;
+    margin: 10px;
+    font-size: 20px;
+    
+       
+}
+
+.featured img{
+    width:100px;
+    height:100px;
+}
 }
