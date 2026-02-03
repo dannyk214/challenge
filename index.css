@@ -215,7 +215,7 @@ input{
     .featured{
         flex-direction: column;
         height : auto;
-        text-wrap: wrap;
+    
         
     }
 
